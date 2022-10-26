@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, p{
+    margin: 10px 0;
+}
+h1{
+    font-size: 50px;
+    color: rebeccapurple;
+}
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 00px;
+    
+}
+.right-side{
+    padding: 20px;
+}
+.right-side img{
+    width: 400px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.half-width{
+    width: 40%;
+
+}
+.button{
+    text-decoration: none;
+    background-color: brown;
+    width: 80px;
+    padding: 15px 30px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+
+}
+.Middle-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.pic-banner{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle-side{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: x-large;
+    
+   
+}
+.m1{
+    width: 300px;
+    padding-left: 180px;
+    padding-right: 30px;
+}
+.m2{
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.m3{
+    width: 300px;
+    padding-left: 20px;
+}
+
+.first{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 150px;
+}
+.second{
+    text-align: center;
+    padding-top: 50px;
+}
+.third{
+    text-align: center;
+    color: grey;
+}
+.fourth{
+    text-align: center;
+    padding-top: 20px;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, skyblue, blue);
+    
+    
+    
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
